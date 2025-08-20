@@ -1,0 +1,53 @@
+/* 1. Base and layout styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+main,
+footer {
+  background-color: #f0f0f0;
+  padding: 20px; /* Padding provides space inside these sections */
+  margin-bottom: 10px; /* Margin adds space outside */
+  border: 2px solid #ccc; /* Border helps visualize section boundaries */
+}
+
+/* 2. Intro Section */
+.intro p {
+  margin-top: 10px;
+}
+
+/* 3. Box visualization */
+.box-demo .box {
+  width: 200px;
+  height: 100px;
+  padding: 20px; /* inner spacing */
+  border: 5px dashed #007bff; /* visible border */
+  margin: 20px auto; /* vertical space and center horizontally */
+  background-color: #e0f7fa;
+}
+
+/* 4. Cards layout */
+.layout-demo {
+  display: flex;
+  gap: 15px; /* space between cards */
+}
+
+.layout-demo .card {
+  flex: 1;
+  padding: 15px;
+  border: 3px solid #007bff;
+  margin: 10px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+/* 5. Box-Sizing Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /* ensures padding & border are included in width/height */
+}
